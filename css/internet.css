@@ -67,7 +67,7 @@ h1{
 	font-variant: small-caps;
 }
 .foot{
-	position: sticky;
+	position: absolute;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
