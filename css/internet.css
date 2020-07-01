@@ -361,8 +361,12 @@ body{
   @media (max-width: 470px){
  	.display{
  		margin-left: 5vw;
+ 		width: 70vw;
  	}
  	.homepage{
  		padding-bottom: 8em;
+ 	}
+ 	.foot{
+ 		padding-bottom: 2em;
  	}
  }
