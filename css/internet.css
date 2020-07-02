@@ -369,4 +369,17 @@ body{
  	.foot{
  		padding-bottom: 3em;
  	}
+	.dropdown{
+		padding-right: 1.5em;
+	  }
+	  .img-right{
+		  height: 25vh !important;
+	  }
+	   .img-left{
+		  height: 25vh !important;
+	  }
+	  body{
+		  overflow-x: hidden;
+	  }
+	  
  }
