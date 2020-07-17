@@ -361,7 +361,7 @@ body{
   @media (max-width: 470px){
  	.display{
  		margin-left: 2vw;
- 		width: 6em;
+ 		width: 4.8em;
  	}
  	.homepage{
 
@@ -375,9 +375,11 @@ body{
 	  }
 	  .img-right{
 		  height: 30vh !important;
+                  width: 50vw !important;
 	  }
 	   .img-left{
 		  height: 30vh !important;
+                  width: 50vw !important;
 	  }
 	  body{
 		  overflow-x: hidden;
