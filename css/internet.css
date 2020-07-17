@@ -359,6 +359,9 @@ body{
  	}	
  }
   @media (max-width: 470px){
+	  body{
+		  font-size: 0.8em;
+	  }
  	.display{
  		margin-left: 2vw;
  		width: 4.8em;
@@ -375,11 +378,11 @@ body{
 	  }
 	  .img-right{
 		  height: 30vh !important;
-                  width: 50vw !important;
+                  width: 60vw !important;
 	  }
 	   .img-left{
 		  height: 30vh !important;
-                  width: 50vw !important;
+                  width: 60vw !important;
 	  }
 	  body{
 		  overflow-x: hidden;
