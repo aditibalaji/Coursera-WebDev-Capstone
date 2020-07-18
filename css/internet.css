@@ -363,8 +363,10 @@ body{
 		  font-size: 0.8em;
 	  }
  	.display{
- 		margin-left: 2vw;
- 		width: 4.8em;
+ 		margin-left: 1.2vw !important;
+ 		width: 4.8em !important;
+		padding-left: 1em !important;
+		overflow-x: hidden;
  	}
  	.homepage{
 
@@ -378,11 +380,11 @@ body{
 	  }
 	  .img-right{
 		  height: 30vh !important;
-                  width: 60vw !important;
+                  width: 52vw !important;
 	  }
 	   .img-left{
 		  height: 30vh !important;
-                  width: 60vw !important;
+                  width: 52vw !important;
 	  }
 	  body{
 		  overflow-x: hidden;
