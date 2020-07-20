@@ -229,7 +229,7 @@ body{
 
 
 
- @media (max-width: 1050px){
+ @media screen and (max-width: 1050px){
  	.right{
  		display: block !important;
  		float: none !important;
@@ -270,7 +270,7 @@ body{
  		font-size: 2em;
  	}
  }
- @media (max-width: 800px){
+ @media screen and (max-width: 790px){
  	.display{
  		margin-left: 20vw;
  	}
@@ -348,27 +348,19 @@ body{
 		display: block;
 	}
 }
- /* @media (max-width: 610px){
- 	.display{
- 		margin-left: 10vw;
- 		padding-bottom: 4.2em;
- 		margin-bottom: 3em;
- 	}
- 	.homepage{
- 		padding-bottom: 9em;
- 	}	
- } */
-  @media (max-width: 670px){
+
+  @media screen and (max-width: 400px){
 	  body{
 		  font-size: 0.8em;
+		  overflow-x: hidden;
 	  }
 	  .homepage::before{
-		  background-color: rgba(256, 256, 256, 0.75);
+		  background-color: rgba(256, 256, 256, 0.75) important;
  	.display{
- 		margin-left: 1vw !important;
-		margin-right: 1vw !important;
-		background-color: rgba(0, 0, 0, 0);
-		color: #000000;
+/*  		margin-left: 1vw !important;
+		margin-right: 1vw !important; */
+		background-color: rgba(0, 0, 0, 0) !important;
+		color: #000000 !important;
  	}
  	.homepage{
  		padding-bottom: 8em;
@@ -385,9 +377,6 @@ body{
 	  }
 	   .img-left{
 		  height: 25vh !important;
-	  }
-	  body{
-		  overflow-x: hidden;
 	  }
 	  
  }
