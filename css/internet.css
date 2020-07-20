@@ -362,30 +362,29 @@ body{
 	  body{
 		  font-size: 0.8em;
 	  }
+	  .homepage::before{
+		  background-color: rgba(256, 256, 256, 0.75);
  	.display{
  		margin-left: 1vw !important;
- 		width: 4.8em !important;
-		padding-right: 1em !important;
 		margin-right: 1vw !important;
-		overflow-x: hidden;
+		background-color: rgba(0, 0, 0, 0);
+		colo: #000000;
  	}
  	.homepage{
-
  		padding-bottom: 8em;
  	}
  	.foot{
  		padding-bottom: 3em;
+		padding-top: 1em;
  	}
 	.dropdown{
 		padding-right: 1.5em;
 	  }
 	  .img-right{
 		  height: 25vh !important;
-                  width: 30vw !important;
 	  }
 	   .img-left{
 		  height: 25vh !important;
-                  width: 30vw !important;
 	  }
 	  body{
 		  overflow-x: hidden;
