@@ -355,11 +355,11 @@ body{
 		  overflow-x: hidden;
 	  }
 	  .homepage::before{
-		  background-color: rgba(256, 256, 256, 0.75) important;
+		  background-color: rgba(256, 256, 256, 0.75) !important;
 	  }
  	.display{
-/*  		margin-left: 1vw !important;
-		margin-right: 1vw !important; */
+/*  		margin-left: 1vw !important; */
+		margin-right: 1vw !important;
 		background-color: rgba(0, 0, 0, 0) !important;
 		color: #000000 !important;
  	}
@@ -370,9 +370,9 @@ body{
  		padding-bottom: 3em;
 		padding-top: 1em;
  	}
-	.dropdown{
+/* 	.dropdown{
 		padding-right: 1.5em;
-	  }
+	  } */
 	  .img-right{
 		  height: 25vh !important;
 	  }
