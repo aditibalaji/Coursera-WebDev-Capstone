@@ -355,16 +355,17 @@ body{
 		  overflow-x: hidden;
 	  }
 	  .homepage::before{
-		  background-color: rgba(256, 256, 256, 0.75) !important;
+		  background-color: rgba(256, 256, 256, 0.8) !important;
 	  }
  	.display{
 /*  		margin-left: 1vw !important; */
 		margin-right: 1vw !important;
 		background-color: rgba(0, 0, 0, 0) !important;
 		color: #000000 !important;
+		left: 0 !important;
  	}
  	.homepage{
- 		padding-bottom: 8em;
+ 		padding-bottom: 6em;
  	}
  	.foot{
  		padding-bottom: 3em;
