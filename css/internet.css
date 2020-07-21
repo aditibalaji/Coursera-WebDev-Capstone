@@ -353,6 +353,8 @@ body{
 	  body{
 		  font-size: 0.8em;
 		  overflow-x: hidden;
+		  display: flex;
+		  align-items: flex-start;
 	  }
 	  .homepage::before{
 		  background-color: rgba(256, 256, 256, 0.8) !important;
@@ -371,9 +373,9 @@ body{
  		padding-bottom: 3em;
 		padding-top: 1em;
  	}
-/* 	.dropdown{
-		padding-right: 1.5em;
-	  } */
+	.dropdown{
+		padding-left: 1.5em;
+	  }
 	  .img-right{
 		  height: 25vh !important;
 	  }
