@@ -356,6 +356,7 @@ body{
 	  }
 	  .homepage::before{
 		  background-color: rgba(256, 256, 256, 0.75) important;
+	  }
  	.display{
 /*  		margin-left: 1vw !important;
 		margin-right: 1vw !important; */
