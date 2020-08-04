@@ -353,18 +353,16 @@ body{
 	  body{
 		  font-size: 0.8em;
 		  overflow-x: hidden;
-		  display: flex;
-		  align-items: flex-start;
 	  }
 	  .homepage::before{
 		  background-color: rgba(256, 256, 256, 0.8) !important;
 	  }
  	.display{
-/*  		margin-left: 1vw !important; */
+  		position: absolute;
 		margin-right: 1vw !important;
 		background-color: rgba(0, 0, 0, 0) !important;
 		color: #000000 !important;
-		left: 0 !important;
+		left: 1em !important;
  	}
  	.homepage{
  		padding-bottom: 6em;
@@ -377,10 +375,10 @@ body{
 		padding-left: 1.5em;
 	  }
 	  .img-right{
-		  height: 25vh !important;
+		  height: 30vh !important;
 	  }
 	   .img-left{
-		  height: 25vh !important;
+		  height: 30vh !important;
 	  }
 	  
  }
