@@ -358,27 +358,22 @@ body{
 		  background-color: rgba(256, 256, 256, 0.8) !important;
 	  }
  	.display{
-  		position: absolute;
-		margin-right: 1vw !important;
 		background-color: rgba(0, 0, 0, 0) !important;
 		color: #000000 !important;
-		left: -3em !important;
+		margin-left: 10px;
  	}
  	.homepage{
  		padding-bottom: 6em;
  	}
  	.foot{
  		padding-bottom: 3em;
-		padding-top: 1em;
+		padding-top: 0.5em;
+ 	}
+ 	.foot li{
+ 		font-size: 0.6em;
  	}
 	.dropdown{
 		padding-left: 1.5em;
-	  }
-	  .img-right{
-		  height: 30vh !important;
-	  }
-	   .img-left{
-		  height: 30vh !important;
 	  }
 	  
  }
