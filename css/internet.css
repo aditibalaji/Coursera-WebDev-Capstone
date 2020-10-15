@@ -360,7 +360,8 @@ body{
  	.display{
 		background-color: rgba(0, 0, 0, 0) !important;
 		color: #000000 !important;
-		margin-left: 10px;
+		margin-left: 6px;
+		margin-top: 70px;
  	}
  	.homepage{
  		padding-bottom: 6em;
